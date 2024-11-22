@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devotional Poems</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c; /* Dark background */
+            color: white; /* Text color */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d32f2f; /* Red background */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            color: white;
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            min-height: 80vh; /* Ensures main content area takes at least 80% of the viewport height */
+            margin-bottom: 60px; /* Adds space to prevent footer overlap */
+        }
+        .devotional {
+            background-color: #333; /* Dark gray background for the section */
+            padding: 20px;
+            border-radius: 10px;
+            border: 3px solid #d32f2f; /* Red border */
+        }
+        .devotional h2 {
+            color: #d32f2f; /* Red color for the scripture heading */
+        }
+        .devotional p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .devotional em {
+            font-style: italic;
+            color: #f44336; /* Red for emphasis */
+        }
+        .reflection, .application, .prayer {
+            background-color: #444; /* Dark gray background for each block */
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            border-left: 5px solid #d32f2f; /* Red accent border */
+        }
+        footer {
+            background-color: #222; /* Dark footer background */
+            color: #aaa; /* Light gray text */
+            text-align: center;
+            padding: 10px;
+            position: relative; /* Changed to relative for better control */
+            width: 100%;
+        }
+        footer p {
+            margin: 5px;
+        }
+        /* Additional formatting for poem */
+        .poem {
+            white-space: pre-wrap; /* Preserve formatting with line breaks */
+            font-family: 'Courier New', Courier, monospace; /* Monospaced font for poetry look */
+            font-size: 1.2em;
+            margin-top: 20px;
+            line-height: 1.8;
+            margin-left: 20px; /* Adds indentation for the poem */
+            margin-right: 20px;
+            word-wrap: break-word; /* Ensures long words break and don't overflow */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Devotional Poems</h1>
+    </header>
+    <main>
+        <section class="devotional">
+            <h2>Scripture: John 3:16</h2>
+            <p><em>"For God so loved the world that He gave His only Son..."</em></p>
+            <div class="reflection">
+                <div class="poem">
+                    A Love That Never Fails
+
+                    For God so loved the world, He gave,  
+                    His Son, that we might be saved.  
+                    On Calvary’s cross, with arms outstretched wide,  
+                    He took our sins, and in love, died.  
+
+                    That whosoever, in faith, believes,  
+                    In His great mercy, soul reprieves.  
+                    Eternal life, a gift so pure,  
+                    In Christ, our hope shall long endure.  
+
+                    O wondrous love, beyond all measure,  
+                    A Savior's grace, our deepest treasure.  
+                    Through Him, we live, through Him, we stand,  
+                    Forever held in God's own hand.
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Bobby Hueston: "Elevate Your Soul, Embrace the Son"</p>
+        <p>© 2025 Devotional Poems</p>
+    </footer>
+</body>
+</html>
